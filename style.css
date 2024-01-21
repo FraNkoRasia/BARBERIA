@@ -1,49 +1,149 @@
-.titulo-principal{
-    padding-left: 30px;
+header {
+    background-color: #BBBBBB;
+    padding: 20px 0;
 }
 
-#banner{
-    width:100%;
+.caja {
+    width: 940px;
+    /* la gran mayoria de las pantallas tienen este tamaño*/
+    position: relative;
+    margin: 0 auto;
+    /* tiene que ser en 0 y auto para que lo haga automatico */
 }
 
-.principal{
+nav {
+    position: relative;
+}
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    /*hover captura los movimientos del mouse*/
+    color: #c78c19;
+    text-decoration: underline;
+    /*HACE UN SUBRAYADO */
+}
+
+.productos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.productos li {
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    /* 3 imagenes por 30% son 90% del ancho de la web */
+    vertical-align: top;
+    margin: 0 1.5%;
+    /* 3 imagenes por 1.5% son 9% del ancho de la web */
+    /* ENTONCES 90% + 9% OCUPARIA EL 99% DE LA WEB */
+    padding: 30px 20px;
+    box-sizing: border-box;
+    /*lo que va a hacer es que no sobre pase el tamaño de la web */
+    border: 2px solid #000000;
+    border-radius: 10px;
+}
+
+.productos li:hover {
+    /*hover captura los movimientos del mouse*/
+    border-color: #c78c19;
+}
+
+.productos li:active {
+    /*active captura el elemento que fue echo click y permanece activo */
+    border-color: #088c19;
+}
+
+.productos h2 {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.productos li:hover h2 {
+    font-size: 33px;
+    /*Cambia el tamaño del texto al pasar el mouse por arriba */
+}
+
+.producto-descripcion {
+    font-size: 18px;
+}
+
+.producto-precio {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+footer {
+    text-align: center;
+    background: url(/imagenes/bg.jpg);
+    /*pongo una imagen en mi footer */
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+
+
+
+#banner {
+    width: 100%;
+}
+
+.principal {
     background: #CCCCCC;
     padding: 20px;
 }
 
-.titulo-centralizado{
+.titulo-centralizado {
     text-align: center;
 }
 
-p{
+p {
     text-align: center;
 }
 
-em strong{
-    color:red;
+em strong {
+    color: red;
 }
 
-#mision{
+#mision {
     font-size: 20px;
 }
 
-.diferenciales{
+.diferenciales {
     background: #FFFFFF;
     padding: 30px;
 }
 
-.items{
+.items {
     font-style: italic;
 }
 
-ul{
+.tipo-atencion {
     display: inline-block;
     vertical-align: top;
     width: 20%;
     margin-right: 15%;
 }
 
-.imagenDiferenciales{
+.imagenDiferenciales {
     width: 50%;
 }
-
