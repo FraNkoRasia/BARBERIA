@@ -1,7 +1,8 @@
-header {
-    background-color: #BBBBBB;
-    padding: 20px 0;
+.imgheader {
+    display: block;
+    margin: 0 auto;
 }
+
 
 .caja {
     width: 940px;
@@ -11,12 +12,17 @@ header {
     /* tiene que ser en 0 y auto para que lo haga automatico */
 }
 
-nav {
-    /*Posisiono HOME, PRODUCTS,ECT en el medio del nav */
-    position: absolute;
-    top: 110px;
-    right: 0;
+header {
+    background-color: #BBBBBB;
+    padding: 1px 0;
 }
+
+nav {
+    background-color: #97966f;
+    padding: 15px;
+    text-align: center;
+}
+
 
 nav li {
     display: inline;

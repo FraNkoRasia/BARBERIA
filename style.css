@@ -1,7 +1,8 @@
 header {
-    background-color: #BBBBBB;
-    padding: 20px 0;
+    background-color: #97966f;
+    padding: 20px;
 }
+
 
 .caja {
     width: 940px;
@@ -13,6 +14,7 @@ header {
 
 nav {
     position: relative;
+    text-align: center;
 }
 
 nav li {

@@ -1,0 +1,80 @@
+.imgheader {
+    display: block;
+    margin: 0 auto;
+}
+
+.imgbody {
+    width: 1200px;
+    height: auto;
+    margin: 0 auto;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+h2 {
+    text-align: center;
+    padding: 20px;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+    background: url(imagenes/bg.jpg);
+    /*pongo una imagen en mi footer */
+    padding: 40px;
+}
+
+.copyright {
+    color: #ffffff;
+    font-size: 13px;
+    margin: 20px;
+}
+
+header {
+    background-color: #BBBBBB;
+    padding: 1px 0;
+}
+
+nav {
+    background-color: #97966f;
+    padding: 15px;
+    text-align: center;
+}
+
+
+.caja {
+    width: 940px;
+    /* la gran mayoria de las pantallas tienen este tamaño*/
+    position: relative;
+    margin: 0 auto;
+    /* tiene que ser en 0 y auto para que lo haga automatico */
+}
+
+
+nav li {
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a {
+    text-transform: uppercase;
+    color: #000000;
+    font-weight: bold;
+    font-size: 22px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    /*hover captura los movimientos del mouse*/
+    color: #c78c19;
+    text-decoration: underline;
+    /*HACE UN SUBRAYADO */
+}
