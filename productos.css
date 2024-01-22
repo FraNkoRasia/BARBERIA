@@ -12,14 +12,18 @@
     /* tiene que ser en 0 y auto para que lo haga automatico */
 }
 
+#banner {
+    width: 100%;
+    display: block;
+}
+
 header {
-    background-color: #BBBBBB;
-    padding: 1px 0;
+    background-color: #97966f;
+    padding: 20px;
 }
 
 nav {
-    background-color: #97966f;
-    padding: 15px;
+    position: relative;
     text-align: center;
 }
 
