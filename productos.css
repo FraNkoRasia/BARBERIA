@@ -1,8 +1,7 @@
-.imgheader {
+#banner {
+    width: 100%;
     display: block;
-    margin: 0 auto;
 }
-
 
 .caja {
     width: 940px;
@@ -12,21 +11,17 @@
     /* tiene que ser en 0 y auto para que lo haga automatico */
 }
 
-#banner {
-    width: 100%;
-    display: block;
-}
-
 header {
-    background-color: #97966f;
-    padding: 20px;
+    background-color: #BBBBBB;
+    padding: 1px 0;
 }
 
 nav {
+    padding: 15px;
+    background-color: #97966f;
     position: relative;
     text-align: center;
 }
-
 
 nav li {
     display: inline;
