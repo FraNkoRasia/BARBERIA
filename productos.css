@@ -50,7 +50,7 @@ nav a:hover {
     margin: 0 1.5%;
     /* 3 imagenes por 1.5% son 9% del ancho de la web */
     /* ENTONCES 90% + 9% OCUPARIA EL 99% DE LA WEB */
-    padding: 30px 20px;
+    padding: 60px 20px;
     box-sizing: border-box;
     /*lo que va a hacer es que no sobre pase el tamaño de la web */
     border: 2px solid #000000;
