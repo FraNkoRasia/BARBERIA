@@ -3,7 +3,6 @@ header {
     padding: 20px;
 }
 
-
 .caja {
     width: 940px;
     /* la gran mayoria de las pantallas tienen este tamaño*/
@@ -94,6 +93,14 @@ footer {
     background: url(imagenes/bg.jpg);
     /*pongo una imagen en mi footer */
     padding: 40px;
+    margin-top: auto;
+}
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .copyright {
