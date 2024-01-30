@@ -1,3 +1,7 @@
+body {
+    font-family: "Montserrat", sans-serif;
+}
+
 header {
     background-color: #97966f;
     padding: 20px;
@@ -18,7 +22,7 @@ nav {
 
 nav li {
     display: inline;
-    margin: 0 0 0 15px;
+    margin: 0 0 0 50px;
 }
 
 nav a {
@@ -95,6 +99,7 @@ footer {
     padding: 40px;
     margin-top: auto;
 }
+
 body {
     margin: 0;
     padding: 0;
@@ -109,19 +114,14 @@ body {
     margin: 20px;
 }
 
-#banner {
+/* #banner {
     width: 100%;
     display: block;
-}
+} */
 
-.principal {
-    background: #CCCCCC;
-    padding: 20px;
-}
-
-.titulo-centralizado {
+/* .titulo-centralizado {
     text-align: center;
-}
+} */
 
 p {
     text-align: center;
@@ -145,10 +145,10 @@ em strong {
 }
 
 .tipo-atencion {
- text-align: center;
+    text-align: center;
     vertical-align: top;
     width: 100%;
-    
+
 }
 
 .imagenDiferenciales {
@@ -156,4 +156,80 @@ em strong {
     height: auto;
     margin: 0 auto;
     display: block;
+}
+
+/* aqui empieza el css del HOME */
+.banner {
+    width: 100%;
+}
+
+.titulo-principal {
+    text-align: center;
+    font-size: 2em;
+    margin: 0 0 1em;
+    clear: left;
+}
+
+.principal {
+    padding: 20px;
+}
+
+.principal p {
+    background: #CCCCCC;
+    padding: 20px;
+    text-align: left;
+}
+
+.principal strong {
+    font-weight: bold;
+}
+
+.principal em {
+    font-style: italic;
+}
+
+.utensilios {
+    width: 120px;
+    float: left;
+    margin: 0 20px 20px 0;
+}
+
+.mapa{
+    padding: 3em 0;
+}
+.mapa p{
+    margin:0 0 2em ;
+    text-align: center; 
+}
+.imagenDiferenciales {
+    width: 60%;
+}
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+    .caja {
+        width: 100%;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    nav li {
+        display: inline-block;
+        margin: 0 10px;
+        /* Add some space between links */
+    }
+
+    main {
+        width: 100%;
+        padding: 20px;
+        /* Add some padding for better readability on small screens */
+    }
 }
