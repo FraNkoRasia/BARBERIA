@@ -178,6 +178,7 @@ em strong {
     width: 60%;
     transition: 400ms;
     box-shadow: 10px 10px 30px 10px #000000;
+    margin-top: -50px;
 }
 
 .imagen-diferenciales:hover {
