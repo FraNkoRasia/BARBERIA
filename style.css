@@ -157,6 +157,7 @@ em strong {
 .contenido-diferenciales {
     width: 640px;
     margin: 0 auto;
+    padding: 80px;
 }
 
 .lista-diferenciales {
@@ -256,7 +257,7 @@ em strong {
 
 
 .video {
-    width: 560px;
+    width: 50%;
     margin: 1em auto;
 }
 
@@ -279,4 +280,5 @@ em strong {
         width: 100%;
         padding: 20px;
     }
+   
 }
