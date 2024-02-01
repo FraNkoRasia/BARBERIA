@@ -136,16 +136,17 @@ em strong {
 }
 
 .diferenciales {
-    background: #FFFFFF;
     padding: 30px;
 }
 
 .items {
     font-style: italic;
 }
-.items:before{
-    content:"★ ";
+
+.items:before {
+    content: "★ ";
 }
+
 .tipo-atencion {
     text-align: left;
     vertical-align: top;
@@ -174,15 +175,19 @@ em strong {
 
 .imagen-diferenciales {
     width: 60%;
-    height: auto;
-    margin: 0 auto;
+    transition: 400ms;
+    box-shadow: 10px 10px 30px 10px #000000;
+}
 
+.imagen-diferenciales:hover {
+    opacity: 0.3;
 }
 
 /* aqui empieza el css del HOME */
 .banner {
     width: 100%;
 }
+
 
 .principal {
     padding: 3em 0;
@@ -196,8 +201,8 @@ em strong {
     font-size: 2em;
     margin: 0 0 1em;
     clear: left;
+    text-shadow: 2px 2px 30px red;
 }
-
 
 
 .principal {
@@ -205,7 +210,6 @@ em strong {
 }
 
 .principal p {
-    background: #CCCCCC;
     padding: 20px;
     text-align: left;
 }
@@ -269,12 +273,10 @@ em strong {
     nav li {
         display: inline-block;
         margin: 0 10px;
-        /* Add some space between links */
     }
 
     main {
         width: 100%;
         padding: 20px;
-        /* Add some padding for better readability on small screens */
     }
 }
